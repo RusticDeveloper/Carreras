@@ -1,0 +1,90 @@
+{
+    "Pregunta1": {
+        "Q": "¿Quién pintó Las meninas?",
+        "Respuestas": [
+            { "R1": "Francisco de Goya", "valor": false },
+            { "R2": "Diego Velázquez", "valor": true },
+            { "R3": "Salvador Dalí", "valor": false }
+        ]
+    },
+    "Pregunta2": {
+        "Q": "Si P = M+N, ¿cuál de las siguientes fórmulas es correcta?",
+        "Respuestas": [
+            { "R1": "M = P + N", "valor": false },
+            { "R2": "N = P + M", "valor": false },
+            { "R3": "M = P – N", "valor": true }
+        ]
+    },
+    "Pregunta3": {
+        "Q": "¿África, América, Antártida, Asia, Europa, y Oceanía son?",
+        "Respuestas": [
+            { "R1": "Islas", "valor": false },
+            { "R2": "Países", "valor": false },
+            { "R3": "Continentes", "valor": true }
+        ]
+    },
+    "Pregunta4": {
+        "Q": "¿Quién era el dios romano de la guerra?",
+        "Respuestas": [
+            { "R1": "Marte", "valor": true },
+            { "R2": "Júpiter", "valor": false },
+            { "R3": "Ares", "valor": false }
+        ]
+    },
+    "Pregunta5": {
+        "Q": "¿Qué significa “palimpsesto”?",
+        "Respuestas": [
+            { "R1": "Un personaje que carece de seriedad", "valor": false },
+            { "R2": "Manuscrito cuya escritura ha sido eliminada con objeto de escribir otro texto encima", "valor": true },
+            { "R3": "Razonamiento por el que la verdad de una proposición se prueba demostrando la imposibilidad o absurdo de la proposición contraria", "valor": false }
+        ]
+    },
+    "Pregunta6": {
+        "Q": "¿Cuál es el nombre de la 'herramienta' necesaria para jugar al billar?",
+        "Respuestas": [
+            { "R1": "Palo", "valor": false },
+            { "R2": "Snooker", "valor": false },
+            { "R3": "Taco", "valor": true }
+        ]
+    },
+    "Pregunta7": {
+        "Q": "¿Por qué se llaman lenguas romances el francés, el español y el italiano?",
+        "Respuestas": [
+            { "R1": "Porque encuentran sus raíces en el latín, hablado por los romanos", "valor": true },
+            { "R2": "Porque fueron difundidas por los trovadores ambulantes", "valor": false },
+            { "R3": "Porque suenan muy románticas", "valor": false }
+        ]
+    },
+    "Pregunta8": {
+        "Q": "¿Qué parte del cuerpo produce insulina?",
+        "Respuestas": [
+            { "R1": "El hígado", "valor": false },
+            { "R2": "El páncreas", "valor": true },
+            { "R3": "El bazo", "valor": false }
+        ]
+    },
+    "Pregunta9": {
+        "Q": "¿Qué animal es la drosophila?",
+        "Respuestas": [
+            { "R1": "Una rata", "valor": false },
+            { "R2": "Un conejillo de Indias", "valor": false },
+            { "R3": "Una mosca", "valor": true }
+        ]
+    },
+    "Pregunta10": {
+        "Q": "¿Cuántas sílabas forman un haiku?",
+        "Respuestas": [
+            { "R1": "14", "valor": false },
+            { "R2": "15", "valor": false },
+            { "R3": "17", "valor": true, "aclaracion": " El haiku es un poema breve de 17 sílabas que tiene su origen en la poesía japonesa." }
+        ]
+    },
+    "Pregunta11": {
+        "Q": "¿Cuál es el país de los 1.000 lagos?",
+        "Respuestas": [
+            { "R1": "Finlandia", "valor": true },
+            { "R2": "Estados Unidos", "valor": false },
+            { "R3": "Canadá", "valor": false }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+<div id="pista" width="100%" height="100%">
+        <div>
+            <svg>
+                <rect width="100" height="100" rx="15" ry="15" fill="red"/>
+                <circle cx="50" cy="50" r="25"  fill="white"/>
+            </svg>
+        </div>
+        <div id="dos" class="diceSide">
+            <svg>
+        <rect width="100" height="100" rx="15" ry="15" fill="red"/>
+        <circle cx="28" cy="28" r="15"  fill="white"/>
+        <circle cx="70" cy="70" r="15"  fill="white"/>
+    </svg>
+        </div>
+        <div id="tres" class="diceSide">
+            <svg>
+        <rect width="100" height="100" rx="15" ry="15" fill="red"/>
+        <circle cx="25" cy="25" r="15"  fill="white"/>
+        <circle cx="50" cy="50" r="15"  fill="white"/>
+        <circle cx="75" cy="75" r="15"  fill="white"/>
+    </svg>
+        </div>
+        <div id="cuatro" class="diceSide">
+            <svg>
+        <rect width="100" height="100" rx="15" ry="15" fill="red"/>
+        <circle cx="25" cy="25" r="15"  fill="white"/>
+        <circle cx="75" cy="25" r="15"  fill="white"/>
+        <circle cx="25" cy="75" r="15"  fill="white"/>
+        <circle cx="75" cy="75" r="15"  fill="white"/>
+    </svg>
+        </div>
+        <div id="cinco" class="diceSide">
+            <svg>
+        <rect width="100" height="100" rx="15" ry="15" fill="red"/>
+        <circle cx="22" cy="22" r="15"  fill="white"/>
+        <circle cx="80" cy="22" r="15"  fill="white"/>
+        <circle cx="22" cy="80" r="15"  fill="white"/>
+        <circle cx="80" cy="80" r="15"  fill="white"/>
+        <circle cx="50" cy="50" r="15"  fill="white"/>
+    </svg>
+        </div>
+        <div id="seis" class="diceSide">
+            <svg>
+        <rect width="100" height="100" rx="15" ry="15" fill="red"/>
+        <circle cx="30" cy="18" r="14"  fill="white"/>
+        <circle cx="30" cy="50" r="14"  fill="white"/>
+        <circle cx="30" cy="82" r="14"  fill="white"/>
+        <circle cx="70" cy="18" r="14"  fill="white"/>
+        <circle cx="70" cy="50" r="14"  fill="white"/>
+        <circle cx="70" cy="82" r="14"  fill="white"/>
+    </svg>
+        </div>
+
+
+        valores de referencia
+
+        en x derecha=entre 800 y 1000
+        de arriva y abajo= entre -40 y -50
+        en x a la izquierda entre -20 y 20
+        para ganar debe estar entre 300 y 400
+
+van eln las posiciones de los autos en la funcion guardar
+
+        position:relative; top: 440px; left: 500px;
+position:relative; top: 480px; left: 400px;

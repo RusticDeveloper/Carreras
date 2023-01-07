@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ready for the Fast Race!!!</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="Pista">
+        <img src="img/deportivo.png" width="100px" height="100px" id="auto1">
+        <img src="img/vintage.png" width="90px" height="90px" id="auto2">
+    </div>
+    <img src="img/lado1.svg" alt="" id="uno" class="diceSide">
+    <img src="img/lado2.svg" alt="" id="dos" class="diceSide">
+    <img src="img/lado3.svg" alt="" id="tres" class="diceSide">
+    <img src="img/lado4.svg" alt="" id="cuatro" class="diceSide">
+    <img src="img/lado5.svg" alt="" id="cinco" class="diceSide">
+    <img src="img/lado6.svg" alt="" id="seis" class="diceSide">
+    <button id="jugar" onclick="juego.preguntar()">Juegar!!!!</button>
+    <div id="openModal" class="modalDialog">
+        <div id="contenido">
+            <!--<a href="#close" title="Close" class="close">X</a>-->
+        </div>
+    </div>
+    <div id="ganado" class="modalDialog">
+        <div id="contenidoGanado">
+            <a href="#close" title="Close" class="close">X</a>
+            <center>
+                <img src="img/fiesta.gif" alt="">
+                <p style="font-size: 20px; visibility: hidden; color: aqua;" id="j1">Jugador Gana</p>
+                <p style="font-size: 20px; visibility: hidden; color: aqua;" id="j2">IA Gana</p>
+            </center>
+        </div>
+    </div>
+
+</body>
+<script src="leer.js"></script>
+<script src="svg/polyfills.js"></script>
+<script src="svg/svg.min.js"></script>
+
+
+</html>
